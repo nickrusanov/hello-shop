@@ -12,7 +12,7 @@ window.addEventListener("resize", function () {
 	if (window.outerWidth >= 400) {
 		document.querySelector('.menu').style.display = 'block';
 		document.querySelector('.home-main').style.display = 'block';
-	} else {
+	} else if (document.querySelector('.home-main').style.display === 'block') {
 		document.querySelector('.menu').style.display = 'none';
 	}
 })
