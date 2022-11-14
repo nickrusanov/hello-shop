@@ -220,7 +220,7 @@ html {
 	.menu {
 		display: none;
 
-		height: calc(100vh - 100px);
+		height: calc(100vh - 300px);
 		max-width: none;
 
 		position: fixed;
@@ -239,9 +239,9 @@ html {
 		width: 100%;
 		flex-grow: 1;
 
-			position: relative;
+		position: relative;
 	}
-
+/* 
 	.menu__item:not(:first-child)::before {
 		display: block;
 		content: '';
@@ -252,7 +252,7 @@ html {
 
 		position: absolute;
 		top: 0;
-	}
+	} */
 
 	.menu__list {
 		flex-direction: column;
