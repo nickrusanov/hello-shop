@@ -9,9 +9,10 @@ document.querySelector('.hamburger').onclick = function () {
 }
 
 window.addEventListener("resize", function () {
-	if (window.outerWidth >= 700) {
+	if (window.outerWidth >= 400) {
 		document.querySelector('.menu').style.display = 'block';
 		document.querySelector('.home-main').style.display = 'block';
 	} else {
 		document.querySelector('.menu').style.display = 'none';
-	}})
+	}
+})
