@@ -225,8 +225,8 @@ html {
 
 		position: fixed;
 		left: 50%;
-		top: calc(50% + 50px);
-		transform: translate(-50%, -50%);
+		top: 100px;
+		transform: translate(-50%, 0);
 
 		background-color: white;
 	}
@@ -239,9 +239,7 @@ html {
 		width: 100%;
 		flex-grow: 1;
 
-		
-
-		position: relative;
+			position: relative;
 	}
 
 	.menu__item:not(:first-child)::before {
